@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0f9263c205.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p> Aspiring Offensive Cyber Security Engineer</p>
+            <h1>Hi, I'm <span>Okongo</span><br> Eugine from Nairobi</h1>
+
+
+        </div>
+    </div>
+
+</div>
+<!----------------about---------- --->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>I am a dedicated cybersecurity professional with training in ethical hacking and offensive cybersecurity. My recent completion of a comprehensive program in cybersecurity has equipped me with an understanding of network security, penetration testing, vulnerability assessment, and threat analysis.</p>
+                <br>
+                <p>I am committed to continuous learning and staying ahead of emerging cyber threats. My goal is to leverage my technical expertise and analytical thinking to contribute to the protection of organizations and their assets from sophisticated cyber attacks.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Cyber Security</span><br>Securing digital assets.Red Teaming</li>
+                        <li><span>Web Development</span><br>Web Development</li>
+                        <li><span>Penetration tester</span><br>penetration testing</li>
+                        <li><span>Vulnerability Assessment</span><br>Assessing vulnerabilities</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024</span><br>Cyber Forensic & Security Solutions</li>
+                        <li><span>2024</span><br>Cyber Talents</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 - Current</span><br>Catholic University of Eastern Africa</li>
+                        <li><span>2024</span><br>Cyber Forensic & Security Solutions</li>
+                        <li><span>2024</span><br>Cyber Talents</li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!---------------------------services--------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-user-secret"></i>
+                <h2>Cyber Security</h2>
+                <p>Through my participation in the CFSS project based program and Cyber Talents competition, </p>
+                <br>
+                <p>I have honed my skills in cyber security focusing on area such as ethical hacking.The experience has enhanced my problem-solving abilities and provided me with hands-on exposure to real-world cyber security challenges</p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Crafting unique, high-quality websites tailored to your specific needs and brand identity</p>
+                <br>
+                <p>Whether you are starting from scratch or looking to improve your current site, I have the skills to deliver front-end solutions that meet your goals and exceed your expectations</p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-gear"></i>
+                <h2>Penetration Testing & Vulnerability Assessment</h2>
+                <p>Identifying and addressing security weaknesses in systems and applications to prevent unauthorized access and breaches. Monitoring and analyzing emerging threats to defend against potential cyber attacks</p>
+                
+            </div>
+           
+        </div>
+
+    </div>
+
+
+</div>
+<!------------------------portfolio----------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My certificates</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/cert 1.png">
+                <div class="layer">
+                    <h3>Cyber talents certificate</h3>
+                    <p>Certificate achieved through completing labs</p>
+                    <a href="https://drive.google.com/file/d/1FBKxS2Q3_2M3AajqCLTaUOzF7UgbBDXu/view?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/cert 4.png">
+                <div class="layer">
+                    <h3>CFSS Certificate</h3>
+                    <p>Project-based certificate</p>
+                    <a href="https://drive.google.com/file/d/1HI5VK_-vemarYubfjYNYC0lM5RWaGJXG/view?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+
+
+
+</div>
+
+<!--------------------------------contact----------------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> kellyeugine583@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +254741505192</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/_.eugin.e?igsh=MXJ3ZXNvem5sZDZzZA=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@klee3428?_t=8pDfH4Gh5vy&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://x.com/Eugine_11?t=rKNx5o2CuITwfyTZMerltg&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/eugine-kelly-okongo?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href=" " download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; Okongo Eugine Kelly. Made with <i class="fa-solid fa-heart"></i> All rights reserved.</p>
+        </div>
+    </div>
+
+
+
+
+
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxVeYq3KWha_JaHJh4KALqWr-MHrd0CG65l3gvephEKGlQLOAxsO6VHcSpaUHprxLLe/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = "";
+
+            },1000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <script>
+    window.addEventListener('scroll', function() {
+    var scrollPosition = window.scrollY;
+    document.querySelector('#header').style.transform = 'translateY(' + (scrollPosition * 0.1) + 'px)';
+    });
+
+
+  </script>
+
+</body>
+</html>
